@@ -70,22 +70,6 @@ include '../../resources/config.php';
                                     <a class="nav-link" href="./kelola-denda.php">Kelola Denda</a>
                                 </nav>
                             </div>
-                            <div class="sb-sidenav-menu-heading">MASTER PEGAWAI</div>
-                            <a class="nav-link" href="./tabel-pegawai.php">
-                                <div class="sb-nav-link-icon"><i class="fa fa-id-card" aria-hidden="true"></i></i></div>
-                                Tabel Pegawai
-                            </a>
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseKelolaPegawai" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fa fa-cog" aria-hidden="true"></i></div>
-                                Kelola Pegawai
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapseKelolaPegawai" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="./tambah-data-pegawai.php">Tambah Data Pegawai</a>
-                                    <a class="nav-link" href="./kelola-data-pegawai.php">Kelola Data Pegawai</a>
-                                </nav>
-                            </div>
                         </div>
                     </div>
                     <div style="background-color: #4156A1 !important;" class="sb-sidenav-footer">
