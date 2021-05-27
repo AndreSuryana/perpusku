@@ -1,0 +1,77 @@
+YG PERLU DIKERJAKAN!
+=====================================================
+
+PROJECT HARUS MENGANDUNG:
+Modul Pilihan   : 
+- View                          v
+- Stored Procedure & Cursor     x
+- Trigger                       x
+
+Modul Wajib     : 
+- DDL (pembuatan database dan tabel) v
+- Insert (memasukkan data buku, data pegawai, data peminjaman, data denda) v
+- Update (edit data buku, data pegawai, data peminjaman, data denda) v
+- Delete (hapus data buku, data pegawai, data peminjaman, data denda) v
+- Select dengan operator logika dan clausa like (clausa like: searching judul buku) x
+- Select dengan order by, aliasing, kalkulasi field, dan clausa between (order by: sorting tabel, aliasing: pada saat join tabel, kalulasi field: menampilkan stok buku 'mungkin')
+- Fungsi agregasi dan clausa having-select menggunakan join-select dengan union dan in (agregasi: belum, having: belum, join union: belum)
+
+Fitur Fungsional:
+- Search bar -> clausa LIKE(%apa_yg_diinput_di_searchbar%)
+- Sort by (A-Z, Z-A, Harga Termurah/Termahal, Year New/Old) -> clausa ORDER BY
+
+Fitur Utama (CRUD):
+- Input data buku (CREATE)
+- Tampilkan data buku (READ)
+- Edit data buku (UPDATE
+- Hapus data buku (DELETE)
+
+Tambahan Untuk Admin (CRUD):
+- Input data pegawai (CREATE)
+- Tampilkan data pegawai (READ)
+- Edit data pegawai (UPDATE)
+- Hapus data pegawai (DELETE)
+
+TODOLIST:
+- Login multiuser (admin/pegawai)   v
+- Dashboard                         x
+- Form input buku                   x
+- Tabel                             x
+
+YG PERLU ATAU BISA DIUBAH!
+- penambahan enkripsi md5 pada 'password' admin/pegawai
+
+Tambahan Kolom pada Tabel:
+- denda -> status : status dibayar atau belum
+- buku  -> stok : stok buku yang ada
+- buku  -> id_buku : PRIMARY KEY, isbn field biasa (belum diubah)
+- penulis -> id_penulis dari int menjadi char (1 menjadi AH)
+- buku  -> judul varchar(50) jadi varchar(100)
+
+NEXT -> BUAT TAMPILAN TABEL BUKU DAN FORM INSERT DATA BUKU
+
+
+SIDE NAV
+
+MAIN
+    Dashboard
+    Menampilkan:
+    - Tabel 5 Buku Paling Sering Dipinjam
+    - Tabel 5 Buku Terbaru
+    - Dll
+
+MASTER BUKU
+    Tabel Buku 
+    Edit Data Buku
+    Dropdown:
+    - Tambah Data Buku
+    - Hapus Data Buku
+    - Edit Data Buku
+
+MASTER pegawai
+    Tabel Data Pegawai
+    Edit Data Pegawai
+    Dropdown:
+    - Tambah Pegawai Pegawai
+    - Hapus Data Pegawai
+    - Edit Data Pegawai
